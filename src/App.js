@@ -1,9 +1,11 @@
 import React from 'react';
-
+import { createRoot } from 'react-dom/client';
 import { Footer, Blog, Possibility, Features, WhatProject1, Header } from './containers';
 import { CTA, Brand, Navbar } from './components';
 import './App.css';
 
+
+const root = createRoot(document.getElementById('root'));
 
 const App = () => {
   return (
